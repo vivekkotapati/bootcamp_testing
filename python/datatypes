@@ -1,0 +1,14 @@
+a = 10  #int
+e = -1
+b = 10.5 #float
+c = True #b00lean
+d = 1+3j #complex
+print(type(a))
+print(type(e))
+print(type(b))
+print(type(c))
+print(type(d))
+
+#print(True==1) #True =1,false =0
+#print(False==0)
+

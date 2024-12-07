@@ -1,0 +1,12 @@
+s = "abcdefghij"
+print(s[1:6:2])
+print(s[::1])
+print(s[3:7:-1]) #empty
+print(s[7:4:-1])
+print(s[0:1000:1])#it will take only upto required
+print(s[-4:1:-1])
+print(s[-4:1:-2])
+print(s[5:0:1])#end value zero result empty
+#print(s[9:0:0])#step can't be zero
+print(s[0:-11:-1])
+print(s[0:-10:-1])

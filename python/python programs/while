@@ -1,0 +1,21 @@
+'''a = [0,1,2,3]
+for a[-1] in a:
+    print(a)
+    print(a[-1])
+'''
+# W A P to prompt user to enter name & pwd until "mahesh" and "sunny"
+'''
+name=''
+pwd=''
+while name !='mahesh' or pwd !='sunny':
+    name=input("name:")
+    pwd=input("password:")
+print("thanks")
+
+'''
+for i in range(10):
+    if i == 3:
+        
+        print("processed")
+        break
+    print(i)

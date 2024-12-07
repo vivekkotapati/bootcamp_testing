@@ -1,0 +1,5 @@
+f=open("C:\\Users\\LENOVO\\OneDrive\\Desktop\\hi.txt")
+print(f.read(3))
+print(f.readline())
+print(f.read(4))
+print(f.readlines())

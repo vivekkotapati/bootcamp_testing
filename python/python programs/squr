@@ -1,0 +1,18 @@
+n = int(input("enter a number:"))   # for positive numbers
+sqrt = n * n
+print("the squrare root of",n,"is:",sqrt)
+
+# for complex numbers
+#import complex math module
+'''
+import cmath
+
+num = eval(input('enter a number:'))  # to take input from user
+#The eval() method can be used to convert complex numbers as input to the complex objects in Python
+
+sqrt = cmath.sqrt(num)
+print("the sqrt of complex number is :",sqrt)
+
+# we use sqrt() function in the cmath
+# If we want to take complex number as input directly, like 3+4j, we have to use the eval() function instead of float()
+'''

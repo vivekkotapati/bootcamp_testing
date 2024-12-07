@@ -1,0 +1,76 @@
+s='Python is easy'
+s1=s[-7:]
+s2=s[-4:]
+print(s1+s2)
+
+#reversestring
+s='vivek'
+reverse=s[::-1]
+print(reverse)
+
+#max num
+n1 ,n2,n3 = 10,20,5
+max = max(n1,n2,n3)
+print(max)
+
+ #list 
+l=[1,2,3]
+rept = [i * 3 for i in l]
+print(rept)
+
+#print only values and keys separetly
+dict = {"name":"vivek","age":20,"salary":50000}
+print(dict.keys())
+print(dict.values())
+
+# print index of 2nd location
+a=("vivek"[1+1])
+print(a)
+
+a=2
+b=20
+b*=a*b+10
+print(b)
+
+#slice
+a=[1,2,3,4,5,6],
+print(a[7:])
+
+a=[1,2,[3,4],["viv"] ]
+print(a[3][0])
+
+# w.a.p to fetch palindrome
+l =['python','mom','dad','django','malayalam']
+list=[]
+for i in l:
+    if i==i[::-1]:
+        list.append(i)
+print(list)
+
+# fetch vowels
+n=input("enter name:")
+list=[]
+c=0
+for i in n:
+    if i in 'AEIOUaeiou':
+        list.append(i)
+        c+=1
+print(list)
+print(c)#to check number of vowels present
+
+#comprehensions
+n=input("enter name:")
+print([i for i in n if i in 'aeiouAEIOU'])
+
+#multiplicaation table
+n = int(input("Enter a number: "))
+for i in range(1, 11):
+    print(f"{n} x {i} = {n*i}")
+    
+n = 6
+for i in range(n):
+    sqr = i**2
+    print(sqr)
+
+
+
